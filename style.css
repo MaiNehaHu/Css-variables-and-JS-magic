@@ -25,7 +25,7 @@ h1 {
 :root {
   --spacing: 10px;
   --blur: 1px;
-  --base: yellow;
+  --base: yellow; /*color has no this.dataset.sizing*/
 }
 img {
   height: 50%;
