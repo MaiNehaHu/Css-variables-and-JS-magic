@@ -1,0 +1,40 @@
+body {
+  background-color: violet;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.edits {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/**Base color moved a little down */
+#basecolor {
+  position: relative;
+  top: 22px;
+  left: 10px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+:root {
+  --spacing: 10px;
+  --blur: 1px;
+  --base: yellow;
+}
+img {
+  height: 50%;
+  width: 50%;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+.css{
+    color:var(--base);
+    display: inline;
+}
