@@ -38,3 +38,20 @@ img {
     color:var(--base);
     display: inline;
 }
+@media screen and (max-width: 700px) {
+  .edits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .image {
+    position: relative;
+    top: 5rem;
+  }
+  #basecolor {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+}
